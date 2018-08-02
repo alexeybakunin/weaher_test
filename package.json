@@ -1,0 +1,24 @@
+{
+  "name": "wowapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chakram": "^1.5.0",
+    "date-fns": "^1.29.0",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "chakram": "^1.5.0",
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "test": "mocha --watch",
+    "inspect": "node --inspect --inspect-brk ./test/test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
